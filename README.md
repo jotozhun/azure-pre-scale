@@ -22,13 +22,6 @@ $ source venv/bin/activate or
 $ pip install -r requirements.txt
 ```
 
-3. Watch the video of how to get tokens in the comments of the following ticket:
-
-```
-https://jira.arubanetworks.com/browse/CPA-3633
-https://jira.arubanetworks.com/browse/CPA-3722
-```
-
 4. Scripts
 ### azure_auth_scale
 
@@ -42,4 +35,4 @@ This script is used to call the five main functions you will need, also it has a
 ### azure_auth_scale_calls
 At the end of this script you will find a class instantiation calling five functions, just uncomment the functions you want to run and read the documentation of each function. Make sure that you are located in the directory before executing the script.
 ### Example
-Automation/tools/cda/utilities/azure_automation> python azure_auth_scale_calls.py
+azure_automation> python azure_auth_scale_calls.py
